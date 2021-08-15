@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-sudo pacman -S --needed openbox obconf menumaker xorg-server lightdm lightdm-gtk-greeter pcmanfm tint2 samba pavucontrol pulseaudio pulseaudio-bluetooth pulseaudio-zeroconf pulsemixer xfce4-pulseaudio-plugin lxappearance-obconf lxappearance grub-customizer samba bluez bluez-utils xterm menumaker geany terminator xarchiver
+sudo pacman -S --needed xorg xorg-xinit openbox ttf-dejavu ttf-liberation firefox xterm obconf lxappearance-obconf menumaker tint2 pcmanfm geany terminator xarchiver xorg-server
 
-#mmaker -f -t xterm
+
 
 
 #sudo ./openbox/Themes.sh
