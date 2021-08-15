@@ -6,5 +6,5 @@ sudo pacman -S --needed openbox obconf menumaker xorg-server lightdm lightdm-gtk
 #mmaker -f -t xterm
 
 
-sudo ./openbox/Themes.sh
-sudo ./openbox/systemctl.sh
+#sudo ./openbox/Themes.sh
+#sudo ./openbox/systemctl.sh
