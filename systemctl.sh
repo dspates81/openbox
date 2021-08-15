@@ -7,8 +7,11 @@ systemctl enable bluetooth
 
 systemctl enable reflector.timer
 
-systemctl enable libvirtd
-systemctl start libvitrd
+systemctl enable libvirtd.service
+systemctl start libvitrd.service
+
+systemctl enable virtlogd.service
+systemctl start virtlogd.service
 
 usermod -G libvirtd -a justin
 
