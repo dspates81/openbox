@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-sudo pacman -S --needed xorg xorg-xinit openbox ttf-dejavu ttf-liberation firefox xterm obconf lxappearance-obconf menumaker tint2 pcmanfm geany terminator xarchiver xorg-server polkit
+sudo pacman -S --needed xorg xorg-xinit xorg-server openbox ttf-dejavu ttf-liberation xterm obconf  
 
