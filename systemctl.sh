@@ -3,7 +3,7 @@
 systemctl enable smb.service
 systemctl enable lightdm.service
 systemctl enable bluetooth
-systemctl enable sshd
+
 
 systemctl enable reflector.timer
 
