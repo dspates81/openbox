@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#systemctl enable smb.service
+systemctl enable smb.service
 systemctl enable lightdm.service
 systemctl enable bluetooth
 
@@ -13,6 +13,6 @@ systemctl start libvitrd.service
 systemctl enable virtlogd.service
 systemctl start virtlogd.service
 
-usermod -G libvirtd -a justin
+usermod -aG wheel,audio,video,optical,storage libvirtd justin
 
 
