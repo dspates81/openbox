@@ -15,4 +15,4 @@ systemctl start virtlogd.service
 
 usermod -aG wheel,audio,video,optical,storage libvirtd justin
 
-cp /etc/samba/smb.conf
+
