@@ -1,6 +1,6 @@
 #!/bin/bash
 
-systemctl enable smb.service
+#systemctl enable smb.service
 systemctl enable lightdm.service
 systemctl enable bluetooth
 
